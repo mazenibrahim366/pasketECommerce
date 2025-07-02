@@ -9,7 +9,7 @@ import Blog from "./components/BLog/Blog.jsx";
 import { Toaster } from "react-hot-toast";
 function App() {
 
-  let routers = createHashRouter([
+  let routers = createBrowserRouter([
 {
 path:"",
 element:<Layout/>,
